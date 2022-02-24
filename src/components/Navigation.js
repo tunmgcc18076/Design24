@@ -19,7 +19,9 @@ const Navigation = () => {
                     <a href='/Khoa-ngan-han'  style={navLinkStyle}>Khóa ngắn hạn</a>
                 </li>
             </ul>
+           
         </nav>
+        
     )
 }
 

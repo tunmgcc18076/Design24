@@ -169,6 +169,23 @@ nav {
   font-weight: 500;
   color: #333;
 }
+.like-wapper i {
+  font-size: 22px;
+  color: rgb(248, 244, 244);
+  padding: 10px;
+}
+.like-wapper:hover span {
+  display: block;
+}
+.like-wapper span {
+  font-size: 17px;
+  color: rgb(17, 14, 14);
+  display: none;
+  padding: 10px;
+}
+.like-wapper.active i {
+  color: yellow;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
